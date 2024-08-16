@@ -2,5 +2,6 @@
     "files.associations": {
         "regex": "cpp",
         "iostream": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
