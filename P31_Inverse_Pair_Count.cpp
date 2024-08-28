@@ -19,7 +19,7 @@ int lowbit(int x)
     return x & (-x);
 }
 
-int update(int k, int x)
+void update(int k, int x)
 {
     for (int i = k; i <= X.size(); i += lowbit(i))
         t[i] += x;
