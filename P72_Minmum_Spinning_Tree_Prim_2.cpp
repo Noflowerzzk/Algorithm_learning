@@ -1,5 +1,6 @@
 // 基于点的Prim 堆优化
 // 使用邻接表
+// 适用于稠密图 O(V log (V))
 #include <iostream>
 #include <cstring>
 #include <bitset>
