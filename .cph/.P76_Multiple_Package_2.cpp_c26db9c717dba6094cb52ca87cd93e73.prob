@@ -1,0 +1,1 @@
+{"name":"Local: P76_Multiple_Package_2","url":"d:\\Codes\\Algorithm_learning\\P76_Multiple_Package_2.cpp","tests":[{"id":1726461383837,"input":"10 3\n2 2 1\n1 5 3 \n2 10 4","output":"24"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Codes\\Algorithm_learning\\P76_Multiple_Package_2.cpp","group":"local","local":true}
