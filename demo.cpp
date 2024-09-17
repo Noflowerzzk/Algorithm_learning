@@ -1,31 +1,36 @@
-#include <iostream>
-#include <bitset>
+#include <stdio.h>
+#include <math.h>
 
-using namespace std;
-const int N = 1003;
-int a[N];
-bitset<N> t;
+const int N = 2e6 + 2;
+const int M = 5e3 + 2;
+bool lamp[N];
+int t[M];
+double a[M];
 
 int main()
 {
-    int n; cin >> n;
-    for(int i = 1; i<= n; ++ i) cin >> a[i];
+    // ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
 
-    for(int i = 1; i < n; ++ i)
+    int n; scanf("%d", &n);
+    for (int i = 1; i <= n; ++ i) scanf("%lf %d", &a[i], &t[i]);
+
+    for(int j = 1; j <= n; ++ j)
     {
-        int tp = abs(a[i + 1] - a[i]);
-        if(tp <= n && tp >= 1) t[tp] = true;
+        int i = 1;
+        while(i <= t[j])
+        {
+            lamp[(int)floor(a[j] * i)] = 1 - lamp[(int)floor(a[j] * i)];
+            ++ i;
+        }
     }
 
-    bool res = true;
+    for(int i = 1; i <= N; ++ i)
+        if(lamp[i])
+        {
+            printf("%d", i);
+            break;
+        }
     
-    for (int i = 1; i <= n; ++ i) cout << i << '\n';
 
-    // 你好我是键盘测试
-
-    for(int i = 1; i <= n - 1; ++ i) if(!t[i]) res = false;
-
-    cout << (res ? "Jolly" : "Not jolly");
-
-    return 0;
+   return 0;
 }

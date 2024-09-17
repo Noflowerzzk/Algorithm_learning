@@ -1,0 +1,1 @@
+{"name":"Local: demo","url":"d:\\Codes\\Algorithm_learning\\demo.cpp","tests":[{"id":1726584484817,"input":"3\n1.618034 13\n2.618034 7\n1.000000 21","output":"20"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Codes\\Algorithm_learning\\demo.cpp","group":"local","local":true}
