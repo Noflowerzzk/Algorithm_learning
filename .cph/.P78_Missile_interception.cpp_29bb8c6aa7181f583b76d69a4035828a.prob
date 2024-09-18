@@ -1,0 +1,1 @@
+{"name":"Local: P78_Missile_interception","url":"d:\\Codes\\Algorithm_learning\\P78_Missile_interception.cpp","tests":[{"id":1726624209349,"input":"389 207 155 300 299 170 158 65","output":"6\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Codes\\Algorithm_learning\\P78_Missile_interception.cpp","group":"local","local":true}
