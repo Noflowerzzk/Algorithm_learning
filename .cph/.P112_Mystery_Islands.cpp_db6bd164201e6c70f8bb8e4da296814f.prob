@@ -1,0 +1,1 @@
+{"name":"Local: P112_Mystery_Islands","url":"d:\\Codes\\Algorithm_learning\\P112_Mystery_Islands.cpp","tests":[{"id":1726836981459,"input":"2\n10 3\n9 2","output":"57\n32"},{"id":1726837436856,"input":"1\n4 3","output":"15"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Codes\\Algorithm_learning\\P112_Mystery_Islands.cpp","group":"local","local":true}

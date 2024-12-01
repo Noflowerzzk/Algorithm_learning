@@ -19,7 +19,7 @@ void dfs(int x) // x 表示深度
             cout << c[i];
             if(i == n) cout << '\n';
             else cout << ' ';
-            }
+        }
     }
 
     else

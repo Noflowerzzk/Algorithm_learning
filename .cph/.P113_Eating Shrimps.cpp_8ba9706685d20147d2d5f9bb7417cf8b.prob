@@ -1,0 +1,1 @@
+{"name":"Local: P113_Eating Shrimps","url":"d:\\Codes\\Algorithm_learning\\P113_Eating Shrimps.cpp","tests":[{"id":1726889382563,"input":"2\n5 4 3\n2 3 5\n2 1 10\n4 1 1\n3 4 2\n5 4 3\n3 1 1\n3\n2 1 10","output":"3\n-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Codes\\Algorithm_learning\\P113_Eating Shrimps.cpp","group":"local","local":true}
